@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4e5b81;
+    margin-left: 25vh;
+}
+
+.main-container{
+    margin-top: 12vh;
+    margin-right:40vh;
+}
+
+div.body {
+    font-size: 35;
+    margin-top: 3vh;
+    margin-left:-1vh;
+}
+
+div.body img{
+   height: 30vh;
+   margin-left: -30vh;
+}
+
+div.body p{
+    margin-left:-30vh;
+}
+
+input{
+    height: 5vh;
+    background-color: #66677a00;
+    font-weight: bolder;
+    color:black;
+    padding: 1vh;
+    margin-top: -0.6vh;
+    border:none;
+    width:15vh;
+   
+}
+
+input:focus{
+    outline: none;
+   
+}
+
+
+
+button.add{
+    width: 3vh;
+    height: 3vh;
+    border:2px;
+    border-radius: 50%;
+    position:absolute;
+    margin-top: 0.2vh;
+    margin-left: 1vh;
+    cursor: pointer;
+}
+
+div.main-container img{
+    height: 3.5vh;
+    width:3.5vh;
+    position:absolute;
+    
+    margin-top: -1.5vh;
+    margin-left: -1.6vh;
+   
+}
+
+button.add:hover{
+    border-color: #66677a00;
+}
+
+div.footer{
+    margin-top: 40%;
+}
+
+.todo-item{
+    margin: 5vh;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vh;
+    font-style:italic;
+    color:black;
+    background-color: #6cc0fb1f;
+    text-transform: capitalize;
+    width:75vh;
+    height:3vh;
+    padding:1vh;
+    box-sizing: content-box;
+    position:relative;
+}
+
+.checked-icon:hover , .delete-icon:hover{
+   
+    height:4vh;
+}
+
+.delete-icon{
+    position:absolute;
+    right:1vh;
+    bottom:0.5vh;
+} 
+
+.checked-icon{
+    position:absolute; 
+    right:4vh;
+    bottom:0.5vh;
+}
+
+.delete-button {
+    position:absolute;
+    right:1vh;
+    bottom:0.5vh;
+    height:4vh;
+    width:4vh;
+    cursor: pointer;
+    background: transparent;
+    border:none;
+    
+}
+
+.checked-button{
+    position:absolute;
+    right:4vh;
+    bottom:0.5vh;
+    height:4vh;
+    width:4vh;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
